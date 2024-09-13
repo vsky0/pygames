@@ -24,7 +24,7 @@ clock = pygame.time.Clock()
 # Snake initialization
 snake = [(WIDTH // 2, HEIGHT // 2)]
 direction = pygame.K_RIGHT  # Initial direction of the snake
-snake_speed = 10  # Speed of the snake
+snake_speed = 8  # Speed of the snake
 
 # Food initialization
 food = (random.randint(0, (WIDTH - CELL_SIZE) // CELL_SIZE) * CELL_SIZE,
